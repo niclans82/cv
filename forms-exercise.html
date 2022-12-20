@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Exercise</title>
+</head>
+<body>
+    <div class="Form Example">
+        <label for="name">Name (4 to 8 characters):</label>
+
+        <input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+       <input type="color" id="head" name="head"
+       value="#e66465">
+       <label for="head">Head</label>
+    </div>
+    <div class="Form Example">
+        <label for="button">
+            <input class="favorite styled"
+           type="button"
+           value="Add to favorites">
+        </label>
+    </div>
+    <div class="Forms Example">
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start" name="trip-start"
+        value="2022-12-18"
+        min="2022-01-01" max="2022-12-31">
+        <label for="end">End date:</label>
+
+        <input type="date" id="end" name="trip-end"
+        value="2022-12-18"
+        min="2022-01-01" max="2022-12-31">
+    </div>
+    <div class="Forms Example">
+        <label for="email">Please enter your optimo email:</label>
+
+        <input type="email" id="email"
+        pattern=".+@optimo\.com" size="30" required>
+        <input type="submit">
+
+    </div>
+    <div class="Forms Example">
+        <input type="radio" id="kupi2fm" name="Kupi kupi FM" value="kupi2fm"
+             checked>
+      <label for="kupi2fm">Kupi kupi FM</label>
+    </div>
+    <div class="Forms Example">
+        <input type="range" id="volume" name="volume"
+        min="0" max="11">
+        <label for="volume">Volume</label>
+    </div>
+</body>
+</html>
